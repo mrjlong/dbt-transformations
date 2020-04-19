@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: snowflake_ref
+      description: "A dbt model that uses a ref within snowflake"
+      columns:
+          - name: c_custkey
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
