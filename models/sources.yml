@@ -1,0 +1,39 @@
+version: 2
+
+severity_env: &severity_env
+  severity: "{{ env_var('DBT_TEST_SEVERITY', 'warn') }}"
+
+tests:
+  - &not_null
+    not_null:
+      <<: *severity_env
+  - &unique
+    unique:
+      <<: *severity_env
+
+unique_test: &unique_test
+  tests:
+    - *unique
+
+not_null_test: &not_null_test
+  tests:
+    - *not_null
+
+not_null_unique_test: &not_null_unique_test
+  tests:
+    - *not_null
+    - *unique
+
+sources:
+  - name: tpch_sf1_ods
+    schema: tpch_sf1
+    loader: sample_db
+    freshness:
+      warn_after: { count: 1, period: day }
+      error_after: { count: 2, period: day }
+    database: &src "{{ env_var('SNOWFLAKE_SOURCE') }}"
+    description: Customer data loaded from source.
+    tables:
+      - name: customer
+        description: Customer data loaded from source.
+        loaded_at_field: c_custkey
