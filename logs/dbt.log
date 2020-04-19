@@ -1,0 +1,20 @@
+2020-04-19 00:48:21.737287 (MainThread): Running with dbt=0.16.0
+2020-04-19 00:48:24.870877 (MainThread): invalid escape sequence \[
+2020-04-19 00:48:25.082197 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.deps.DepsTask'>, debug=False, log_cache_events=False, log_format='default', partial_parse=None, profile=None, profiles_dir='/Users/jlong/.dbt', project_dir=None, record_timing_info=None, rpc_method='deps', single_threaded=False, strict=False, target=None, test_new_parser=False, use_cache=True, vars='{}', warn_error=False, which='deps', write_json=True)
+2020-04-19 00:48:25.083875 (MainThread): Tracking: do not track
+2020-04-19 00:48:25.087061 (MainThread): Set downloads directory='/var/folders/55/jk5x6nq102g38s93ycc2vcqr0000gp/T/dbt-downloads-eeme5fb3'
+2020-04-19 00:48:25.089041 (MainThread): Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+2020-04-19 00:48:25.089215 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/index.json
+2020-04-19 00:48:26.019426 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/index.json 200
+2020-04-19 00:48:26.019875 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils.json
+2020-04-19 00:48:26.147059 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils.json 200
+2020-04-19 00:48:26.159920 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils/0.2.4.json
+2020-04-19 00:48:26.268403 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils/0.2.4.json 200
+2020-04-19 00:48:26.274821 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils.json
+2020-04-19 00:48:26.405878 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils.json 200
+2020-04-19 00:48:26.420500 (MainThread): Making package registry request: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils/0.2.4.json
+2020-04-19 00:48:26.578451 (MainThread): Response from registry: GET https://hub.getdbt.com/api/v1/fishtown-analytics/dbt_utils/0.2.4.json 200
+2020-04-19 00:48:26.579765 (MainThread): Installing fishtown-analytics/dbt_utils@0.2.4
+2020-04-19 00:48:27.025985 (MainThread):   Installed from version 0.2.4
+
+2020-04-19 00:48:27.027483 (MainThread): Flushing usage events
