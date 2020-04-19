@@ -18,3 +18,939 @@
 2020-04-19 00:48:27.025985 (MainThread):   Installed from version 0.2.4
 
 2020-04-19 00:48:27.027483 (MainThread): Flushing usage events
+2020-04-19 00:55:29.945433 (MainThread): Running with dbt=0.16.0
+2020-04-19 00:55:30.477463 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.compile.CompileTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=['example'], parse_only=False, partial_parse=None, profile=None, profiles_dir='/Users/jlong/.dbt', project_dir=None, record_timing_info=None, rpc_method='compile', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='compile', write_json=True)
+2020-04-19 00:55:30.478916 (MainThread): Tracking: do not track
+2020-04-19 00:55:30.504341 (MainThread): Partial parsing not enabled
+2020-04-19 00:55:30.507753 (MainThread): Parsing macros/core.sql
+2020-04-19 00:55:30.513831 (MainThread): Parsing macros/materializations/helpers.sql
+2020-04-19 00:55:30.526028 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-04-19 00:55:30.529733 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-04-19 00:55:30.555016 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-04-19 00:55:30.601168 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-04-19 00:55:30.632647 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-04-19 00:55:30.636235 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-04-19 00:55:30.645575 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-04-19 00:55:30.663711 (MainThread): Parsing macros/materializations/table/table.sql
+2020-04-19 00:55:30.672913 (MainThread): Parsing macros/materializations/view/view.sql
+2020-04-19 00:55:30.681881 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-04-19 00:55:30.688773 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-04-19 00:55:30.690332 (MainThread): Parsing macros/etc/query.sql
+2020-04-19 00:55:30.691930 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-04-19 00:55:30.694322 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-04-19 00:55:30.697679 (MainThread): Parsing macros/etc/datetime.sql
+2020-04-19 00:55:30.711302 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-04-19 00:55:30.714478 (MainThread): Parsing macros/etc/get_custom_database.sql
+2020-04-19 00:55:30.716324 (MainThread): Parsing macros/adapters/common.sql
+2020-04-19 00:55:30.775289 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-04-19 00:55:30.777704 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-04-19 00:55:30.779374 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-04-19 00:55:30.781193 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-04-19 00:55:30.784481 (MainThread): Parsing macros/catalog.sql
+2020-04-19 00:55:30.787457 (MainThread): Parsing macros/adapters.sql
+2020-04-19 00:55:30.813228 (MainThread): Parsing macros/materializations/merge.sql
+2020-04-19 00:55:30.816257 (MainThread): Parsing macros/materializations/view.sql
+2020-04-19 00:55:30.817732 (MainThread): Parsing macros/materializations/table.sql
+2020-04-19 00:55:30.823267 (MainThread): Parsing macros/materializations/incremental.sql
+2020-04-19 00:55:30.875011 (MainThread): Partial parsing not enabled
+2020-04-19 00:55:30.878467 (MainThread): Parsing macros/cross_db_utils/except.sql
+2020-04-19 00:55:30.880515 (MainThread): Parsing macros/cross_db_utils/replace.sql
+2020-04-19 00:55:30.882543 (MainThread): Parsing macros/cross_db_utils/concat.sql
+2020-04-19 00:55:30.886151 (MainThread): Parsing macros/cross_db_utils/identifer.sql
+2020-04-19 00:55:30.888166 (MainThread): Parsing macros/cross_db_utils/datatypes.sql
+2020-04-19 00:55:30.898045 (MainThread): Parsing macros/cross_db_utils/_is_relation.sql
+2020-04-19 00:55:30.900596 (MainThread): Parsing macros/cross_db_utils/length.sql
+2020-04-19 00:55:30.902776 (MainThread): Parsing macros/cross_db_utils/dateadd.sql
+2020-04-19 00:55:30.906540 (MainThread): Parsing macros/cross_db_utils/intersect.sql
+2020-04-19 00:55:30.908331 (MainThread): Parsing macros/cross_db_utils/right.sql
+2020-04-19 00:55:30.912377 (MainThread): Parsing macros/cross_db_utils/datediff.sql
+2020-04-19 00:55:30.916278 (MainThread): Parsing macros/cross_db_utils/safe_cast.sql
+2020-04-19 00:55:30.920307 (MainThread): Parsing macros/cross_db_utils/hash.sql
+2020-04-19 00:55:30.923298 (MainThread): Parsing macros/cross_db_utils/position.sql
+2020-04-19 00:55:30.925685 (MainThread): Parsing macros/cross_db_utils/literal.sql
+2020-04-19 00:55:30.927300 (MainThread): Parsing macros/cross_db_utils/current_timestamp.sql
+2020-04-19 00:55:30.932202 (MainThread): Parsing macros/cross_db_utils/width_bucket.sql
+2020-04-19 00:55:30.940112 (MainThread): Parsing macros/cross_db_utils/last_day.sql
+2020-04-19 00:55:30.944674 (MainThread): Parsing macros/cross_db_utils/split_part.sql
+2020-04-19 00:55:30.948483 (MainThread): Parsing macros/cross_db_utils/date_trunc.sql
+2020-04-19 00:55:30.951073 (MainThread): Parsing macros/materializations/insert_by_period_materialization.sql
+2020-04-19 00:55:30.983478 (MainThread): Parsing macros/logger/pretty_log_format.sql
+2020-04-19 00:55:30.985141 (MainThread): Parsing macros/logger/pretty_time.sql
+2020-04-19 00:55:30.986969 (MainThread): Parsing macros/logger/log_info.sql
+2020-04-19 00:55:30.988437 (MainThread): Parsing macros/datetime/date_spine.sql
+2020-04-19 00:55:30.993616 (MainThread): Parsing macros/web/get_url_host.sql
+2020-04-19 00:55:30.996389 (MainThread): Parsing macros/web/get_url_path.sql
+2020-04-19 00:55:30.999692 (MainThread): Parsing macros/web/get_url_parameter.sql
+2020-04-19 00:55:31.001817 (MainThread): Parsing macros/geo/haversine_distance.sql
+2020-04-19 00:55:31.003745 (MainThread): Parsing macros/schema_tests/equal_rowcount.sql
+2020-04-19 00:55:31.006076 (MainThread): Parsing macros/schema_tests/relationships_where.sql
+2020-04-19 00:55:31.009204 (MainThread): Parsing macros/schema_tests/recency.sql
+2020-04-19 00:55:31.011962 (MainThread): Parsing macros/schema_tests/not_constant.sql
+2020-04-19 00:55:31.014031 (MainThread): Parsing macros/schema_tests/at_least_one.sql
+2020-04-19 00:55:31.015842 (MainThread): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2020-04-19 00:55:31.017894 (MainThread): Parsing macros/schema_tests/cardinality_equality.sql
+2020-04-19 00:55:31.020246 (MainThread): Parsing macros/schema_tests/expression_is_true.sql
+2020-04-19 00:55:31.022096 (MainThread): Parsing macros/schema_tests/equality.sql
+2020-04-19 00:55:31.026602 (MainThread): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2020-04-19 00:55:31.035079 (MainThread): Parsing macros/sql/nullcheck_table.sql
+2020-04-19 00:55:31.037164 (MainThread): Parsing macros/sql/generate_series.sql
+2020-04-19 00:55:31.042691 (MainThread): Parsing macros/sql/get_relations_by_prefix.sql
+2020-04-19 00:55:31.048846 (MainThread): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2020-04-19 00:55:31.053162 (MainThread): Parsing macros/sql/star.sql
+2020-04-19 00:55:31.057280 (MainThread): Parsing macros/sql/unpivot.sql
+2020-04-19 00:55:31.066789 (MainThread): Parsing macros/sql/union.sql
+2020-04-19 00:55:31.082407 (MainThread): Parsing macros/sql/groupby.sql
+2020-04-19 00:55:31.084461 (MainThread): Parsing macros/sql/surrogate_key.sql
+2020-04-19 00:55:31.087310 (MainThread): Parsing macros/sql/nullcheck.sql
+2020-04-19 00:55:31.089652 (MainThread): Parsing macros/sql/get_column_values.sql
+2020-04-19 00:55:31.096690 (MainThread): Parsing macros/sql/pivot.sql
+2020-04-19 00:55:31.100862 (MainThread): Parsing macros/sql/get_query_results_as_dict.sql
+2020-04-19 00:55:31.157477 (MainThread): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 00:55:31.157683 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.219742 (MainThread): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 00:55:31.219942 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.261608 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_first_dbt_model_id".
+2020-04-19 00:55:31.261802 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.275333 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_first_dbt_model_id".
+2020-04-19 00:55:31.275509 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.287704 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_second_dbt_model_id".
+2020-04-19 00:55:31.287875 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.298596 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_second_dbt_model_id".
+2020-04-19 00:55:31.298792 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:55:31.593495 (MainThread): WARNING: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_new_project.example
+- snapshots
+
+2020-04-19 00:55:31.691977 (MainThread): Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources
+2020-04-19 00:55:31.696085 (MainThread): 
+2020-04-19 00:55:31.696330 (MainThread): 20:55:31 | Concurrency: 4 threads (target='local')
+2020-04-19 00:55:31.696493 (MainThread): 20:55:31 | 
+2020-04-19 00:55:31.697926 (Thread-1): Began running node model.transformations.my_first_dbt_model
+2020-04-19 00:55:31.698565 (Thread-1): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 00:55:31.698743 (Thread-1): Opening a new connection, currently in state init
+2020-04-19 00:55:31.698890 (Thread-1): Compiling model.transformations.my_first_dbt_model
+2020-04-19 00:55:31.720128 (Thread-1): Writing injected SQL for node "model.transformations.my_first_dbt_model"
+2020-04-19 00:55:31.720868 (Thread-1): finished collecting timing info
+2020-04-19 00:55:31.721204 (Thread-1): finished collecting timing info
+2020-04-19 00:55:31.721708 (Thread-1): Finished running node model.transformations.my_first_dbt_model
+2020-04-19 00:55:31.722302 (Thread-3): Began running node model.transformations.my_second_dbt_model
+2020-04-19 00:55:31.722937 (Thread-3): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 00:55:31.723297 (Thread-4): Began running node test.transformations.not_null_my_first_dbt_model_id
+2020-04-19 00:55:31.723599 (Thread-2): Began running node test.transformations.unique_my_first_dbt_model_id
+2020-04-19 00:55:31.723767 (Thread-3): Opening a new connection, currently in state init
+2020-04-19 00:55:31.724158 (Thread-4): Acquiring new snowflake connection "test.transformations.not_null_my_first_dbt_model_id".
+2020-04-19 00:55:31.724518 (Thread-2): Acquiring new snowflake connection "test.transformations.unique_my_first_dbt_model_id".
+2020-04-19 00:55:31.724713 (Thread-3): Compiling model.transformations.my_second_dbt_model
+2020-04-19 00:55:31.724839 (Thread-4): Opening a new connection, currently in state init
+2020-04-19 00:55:31.724949 (Thread-2): Opening a new connection, currently in state init
+2020-04-19 00:55:31.735238 (Thread-3): Writing injected SQL for node "model.transformations.my_second_dbt_model"
+2020-04-19 00:55:31.735407 (Thread-4): Compiling test.transformations.not_null_my_first_dbt_model_id
+2020-04-19 00:55:31.735541 (Thread-2): Compiling test.transformations.unique_my_first_dbt_model_id
+2020-04-19 00:55:31.763814 (Thread-2): Writing injected SQL for node "test.transformations.unique_my_first_dbt_model_id"
+2020-04-19 00:55:31.767017 (Thread-4): Writing injected SQL for node "test.transformations.not_null_my_first_dbt_model_id"
+2020-04-19 00:55:31.767548 (Thread-3): finished collecting timing info
+2020-04-19 00:55:31.768140 (Thread-3): finished collecting timing info
+2020-04-19 00:55:31.769116 (Thread-3): Finished running node model.transformations.my_second_dbt_model
+2020-04-19 00:55:31.769841 (Thread-4): finished collecting timing info
+2020-04-19 00:55:31.770295 (Thread-2): finished collecting timing info
+2020-04-19 00:55:31.770765 (Thread-4): finished collecting timing info
+2020-04-19 00:55:31.771166 (Thread-1): Began running node test.transformations.not_null_my_second_dbt_model_id
+2020-04-19 00:55:31.771416 (Thread-3): Began running node test.transformations.unique_my_second_dbt_model_id
+2020-04-19 00:55:31.772089 (Thread-2): finished collecting timing info
+2020-04-19 00:55:31.772710 (Thread-4): Finished running node test.transformations.not_null_my_first_dbt_model_id
+2020-04-19 00:55:31.773128 (Thread-1): Acquiring new snowflake connection "test.transformations.not_null_my_second_dbt_model_id".
+2020-04-19 00:55:31.773440 (Thread-3): Acquiring new snowflake connection "test.transformations.unique_my_second_dbt_model_id".
+2020-04-19 00:55:31.773772 (Thread-2): Finished running node test.transformations.unique_my_first_dbt_model_id
+2020-04-19 00:55:31.774165 (Thread-1): Opening a new connection, currently in state init
+2020-04-19 00:55:31.774326 (Thread-3): Opening a new connection, currently in state init
+2020-04-19 00:55:31.774692 (Thread-1): Compiling test.transformations.not_null_my_second_dbt_model_id
+2020-04-19 00:55:31.774842 (Thread-3): Compiling test.transformations.unique_my_second_dbt_model_id
+2020-04-19 00:55:31.789396 (Thread-1): Writing injected SQL for node "test.transformations.not_null_my_second_dbt_model_id"
+2020-04-19 00:55:31.800846 (Thread-3): Writing injected SQL for node "test.transformations.unique_my_second_dbt_model_id"
+2020-04-19 00:55:31.801479 (Thread-3): finished collecting timing info
+2020-04-19 00:55:31.801909 (Thread-3): finished collecting timing info
+2020-04-19 00:55:31.802259 (Thread-1): finished collecting timing info
+2020-04-19 00:55:31.802847 (Thread-3): Finished running node test.transformations.unique_my_second_dbt_model_id
+2020-04-19 00:55:31.803102 (Thread-1): finished collecting timing info
+2020-04-19 00:55:31.803727 (Thread-1): Finished running node test.transformations.not_null_my_second_dbt_model_id
+2020-04-19 00:55:31.907987 (MainThread): Connection 'test.transformations.not_null_my_second_dbt_model_id' was properly closed.
+2020-04-19 00:55:31.908195 (MainThread): Connection 'test.transformations.not_null_my_second_dbt_model_id' was properly closed.
+2020-04-19 00:55:31.908312 (MainThread): Connection 'test.transformations.unique_my_second_dbt_model_id' was properly closed.
+2020-04-19 00:55:31.908419 (MainThread): Connection 'test.transformations.not_null_my_first_dbt_model_id' was properly closed.
+2020-04-19 00:55:31.908529 (MainThread): Connection 'test.transformations.unique_my_first_dbt_model_id' was properly closed.
+2020-04-19 00:55:31.929523 (MainThread): 20:55:31 | Done.
+2020-04-19 00:55:31.929875 (MainThread): Flushing usage events
+2020-04-19 00:58:50.282539 (MainThread): Running with dbt=0.16.0
+2020-04-19 00:58:50.812114 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=['example'], partial_parse=None, profile=None, profiles_dir='/Users/jlong/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-04-19 00:58:50.821176 (MainThread): Tracking: do not track
+2020-04-19 00:58:50.885690 (MainThread): Partial parsing not enabled
+2020-04-19 00:58:50.891869 (MainThread): Parsing macros/core.sql
+2020-04-19 00:58:50.899321 (MainThread): Parsing macros/materializations/helpers.sql
+2020-04-19 00:58:50.911367 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-04-19 00:58:50.914849 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-04-19 00:58:50.943334 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-04-19 00:58:50.990810 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-04-19 00:58:51.022408 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-04-19 00:58:51.025804 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-04-19 00:58:51.035184 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-04-19 00:58:51.055823 (MainThread): Parsing macros/materializations/table/table.sql
+2020-04-19 00:58:51.065766 (MainThread): Parsing macros/materializations/view/view.sql
+2020-04-19 00:58:51.075395 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-04-19 00:58:51.083226 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-04-19 00:58:51.085276 (MainThread): Parsing macros/etc/query.sql
+2020-04-19 00:58:51.086968 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-04-19 00:58:51.089329 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-04-19 00:58:51.092216 (MainThread): Parsing macros/etc/datetime.sql
+2020-04-19 00:58:51.108964 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-04-19 00:58:51.112198 (MainThread): Parsing macros/etc/get_custom_database.sql
+2020-04-19 00:58:51.114329 (MainThread): Parsing macros/adapters/common.sql
+2020-04-19 00:58:51.172787 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-04-19 00:58:51.174676 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-04-19 00:58:51.176217 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-04-19 00:58:51.177872 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-04-19 00:58:51.181615 (MainThread): Parsing macros/catalog.sql
+2020-04-19 00:58:51.184839 (MainThread): Parsing macros/adapters.sql
+2020-04-19 00:58:51.210582 (MainThread): Parsing macros/materializations/merge.sql
+2020-04-19 00:58:51.214067 (MainThread): Parsing macros/materializations/view.sql
+2020-04-19 00:58:51.215606 (MainThread): Parsing macros/materializations/table.sql
+2020-04-19 00:58:51.221783 (MainThread): Parsing macros/materializations/incremental.sql
+2020-04-19 00:58:51.273891 (MainThread): Partial parsing not enabled
+2020-04-19 00:58:51.280653 (MainThread): Parsing macros/cross_db_utils/except.sql
+2020-04-19 00:58:51.283291 (MainThread): Parsing macros/cross_db_utils/replace.sql
+2020-04-19 00:58:51.285847 (MainThread): Parsing macros/cross_db_utils/concat.sql
+2020-04-19 00:58:51.289751 (MainThread): Parsing macros/cross_db_utils/identifer.sql
+2020-04-19 00:58:51.292017 (MainThread): Parsing macros/cross_db_utils/datatypes.sql
+2020-04-19 00:58:51.300269 (MainThread): Parsing macros/cross_db_utils/_is_relation.sql
+2020-04-19 00:58:51.302661 (MainThread): Parsing macros/cross_db_utils/length.sql
+2020-04-19 00:58:51.304880 (MainThread): Parsing macros/cross_db_utils/dateadd.sql
+2020-04-19 00:58:51.308473 (MainThread): Parsing macros/cross_db_utils/intersect.sql
+2020-04-19 00:58:51.310247 (MainThread): Parsing macros/cross_db_utils/right.sql
+2020-04-19 00:58:51.314020 (MainThread): Parsing macros/cross_db_utils/datediff.sql
+2020-04-19 00:58:51.317826 (MainThread): Parsing macros/cross_db_utils/safe_cast.sql
+2020-04-19 00:58:51.321194 (MainThread): Parsing macros/cross_db_utils/hash.sql
+2020-04-19 00:58:51.323918 (MainThread): Parsing macros/cross_db_utils/position.sql
+2020-04-19 00:58:51.326394 (MainThread): Parsing macros/cross_db_utils/literal.sql
+2020-04-19 00:58:51.327984 (MainThread): Parsing macros/cross_db_utils/current_timestamp.sql
+2020-04-19 00:58:51.332849 (MainThread): Parsing macros/cross_db_utils/width_bucket.sql
+2020-04-19 00:58:51.341127 (MainThread): Parsing macros/cross_db_utils/last_day.sql
+2020-04-19 00:58:51.345400 (MainThread): Parsing macros/cross_db_utils/split_part.sql
+2020-04-19 00:58:51.349182 (MainThread): Parsing macros/cross_db_utils/date_trunc.sql
+2020-04-19 00:58:51.351807 (MainThread): Parsing macros/materializations/insert_by_period_materialization.sql
+2020-04-19 00:58:51.384499 (MainThread): Parsing macros/logger/pretty_log_format.sql
+2020-04-19 00:58:51.386203 (MainThread): Parsing macros/logger/pretty_time.sql
+2020-04-19 00:58:51.387689 (MainThread): Parsing macros/logger/log_info.sql
+2020-04-19 00:58:51.389115 (MainThread): Parsing macros/datetime/date_spine.sql
+2020-04-19 00:58:51.394200 (MainThread): Parsing macros/web/get_url_host.sql
+2020-04-19 00:58:51.396600 (MainThread): Parsing macros/web/get_url_path.sql
+2020-04-19 00:58:51.400110 (MainThread): Parsing macros/web/get_url_parameter.sql
+2020-04-19 00:58:51.402220 (MainThread): Parsing macros/geo/haversine_distance.sql
+2020-04-19 00:58:51.403821 (MainThread): Parsing macros/schema_tests/equal_rowcount.sql
+2020-04-19 00:58:51.405902 (MainThread): Parsing macros/schema_tests/relationships_where.sql
+2020-04-19 00:58:51.411422 (MainThread): Parsing macros/schema_tests/recency.sql
+2020-04-19 00:58:51.413888 (MainThread): Parsing macros/schema_tests/not_constant.sql
+2020-04-19 00:58:51.415816 (MainThread): Parsing macros/schema_tests/at_least_one.sql
+2020-04-19 00:58:51.418098 (MainThread): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2020-04-19 00:58:51.420466 (MainThread): Parsing macros/schema_tests/cardinality_equality.sql
+2020-04-19 00:58:51.422948 (MainThread): Parsing macros/schema_tests/expression_is_true.sql
+2020-04-19 00:58:51.425012 (MainThread): Parsing macros/schema_tests/equality.sql
+2020-04-19 00:58:51.430178 (MainThread): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2020-04-19 00:58:51.438555 (MainThread): Parsing macros/sql/nullcheck_table.sql
+2020-04-19 00:58:51.440586 (MainThread): Parsing macros/sql/generate_series.sql
+2020-04-19 00:58:51.445951 (MainThread): Parsing macros/sql/get_relations_by_prefix.sql
+2020-04-19 00:58:51.451494 (MainThread): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2020-04-19 00:58:51.455764 (MainThread): Parsing macros/sql/star.sql
+2020-04-19 00:58:51.459903 (MainThread): Parsing macros/sql/unpivot.sql
+2020-04-19 00:58:51.468671 (MainThread): Parsing macros/sql/union.sql
+2020-04-19 00:58:51.482472 (MainThread): Parsing macros/sql/groupby.sql
+2020-04-19 00:58:51.484402 (MainThread): Parsing macros/sql/surrogate_key.sql
+2020-04-19 00:58:51.487450 (MainThread): Parsing macros/sql/nullcheck.sql
+2020-04-19 00:58:51.489598 (MainThread): Parsing macros/sql/get_column_values.sql
+2020-04-19 00:58:51.495615 (MainThread): Parsing macros/sql/pivot.sql
+2020-04-19 00:58:51.500111 (MainThread): Parsing macros/sql/get_query_results_as_dict.sql
+2020-04-19 00:58:51.553854 (MainThread): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 00:58:51.554042 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.614186 (MainThread): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 00:58:51.614353 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.655666 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_first_dbt_model_id".
+2020-04-19 00:58:51.655856 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.668289 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_first_dbt_model_id".
+2020-04-19 00:58:51.668439 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.680548 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_second_dbt_model_id".
+2020-04-19 00:58:51.680723 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.691938 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_second_dbt_model_id".
+2020-04-19 00:58:51.692119 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:51.990913 (MainThread): WARNING: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_new_project.example
+- snapshots
+
+2020-04-19 00:58:52.087462 (MainThread): Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources
+2020-04-19 00:58:52.091685 (MainThread): 
+2020-04-19 00:58:52.092086 (MainThread): Acquiring new snowflake connection "master".
+2020-04-19 00:58:52.092228 (MainThread): Opening a new connection, currently in state init
+2020-04-19 00:58:52.102983 (ThreadPoolExecutor-0_0): Acquiring new snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 00:58:52.103288 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2020-04-19 00:58:52.240712 (ThreadPoolExecutor-0_0): Using snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 00:58:52.240899 (ThreadPoolExecutor-0_0): On list_WAREHOUSE_LOCAL: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL"} */
+
+    show terse schemas in database WAREHOUSE_LOCAL
+    limit 10000
+2020-04-19 00:58:52.767628 (ThreadPoolExecutor-0_0): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-04-19 01:01:03.359611 (ThreadPoolExecutor-0_0): HTTP 403: Forbidden
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 649, in _request_exec_wrapper
+    **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 904, in _request_exec
+    raise err
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 821, in _request_exec
+    raise RetryRequest(exi)
+snowflake.connector.network.RetryRequest: HTTP 403: Forbidden
+2020-04-19 01:01:03.363113 (ThreadPoolExecutor-0_0): Got an error when attempting to open a snowflake connection: '250001 (08001): Failed to connect to DB. Verify the account name is correct: pba81894.snowflakecomputing.com:443. HTTP 403: Forbidden'
+2020-04-19 01:01:03.363445 (ThreadPoolExecutor-0_0): Error running SQL: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL"} */
+
+    show terse schemas in database WAREHOUSE_LOCAL
+    limit 10000
+2020-04-19 01:01:03.363631 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2020-04-19 01:01:03.363847 (ThreadPoolExecutor-0_0): On list_WAREHOUSE_LOCAL: No close available on handle
+2020-04-19 01:01:03.364135 (ThreadPoolExecutor-0_0): Error running SQL: macro list_schemas
+2020-04-19 01:01:03.364303 (ThreadPoolExecutor-0_0): Rolling back transaction.
+2020-04-19 01:01:03.365535 (MainThread): Connection 'master' was properly closed.
+2020-04-19 01:01:03.365773 (MainThread): Connection 'list_WAREHOUSE_LOCAL' was properly closed.
+2020-04-19 01:01:03.366058 (MainThread): Flushing usage events
+2020-04-19 01:01:03.366277 (MainThread): Encountered an error:
+2020-04-19 01:01:03.366465 (MainThread): Runtime Error
+  Database error while listing schemas in database "WAREHOUSE_LOCAL"
+  Database Error
+    250001 (08001): Failed to connect to DB. Verify the account name is correct: pba81894.snowflakecomputing.com:443. HTTP 403: Forbidden
+2020-04-19 01:01:03.385681 (MainThread): Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 649, in _request_exec_wrapper
+    **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 904, in _request_exec
+    raise err
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 821, in _request_exec
+    raise RetryRequest(exi)
+snowflake.connector.network.RetryRequest: HTTP 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/auth.py", line 188, in authenticate
+    socket_timeout=self._rest._connection.login_timeout)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 530, in _post_request
+    _include_retry_params=_include_retry_params)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 609, in fetch
+    **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/network.py", line 689, in _request_exec_wrapper
+    Error.errorhandler_wrapper(conn, None, cause)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 100, in errorhandler_wrapper
+    connection.errorhandler(connection, cursor, errorclass, errorvalue)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/errors.py", line 73, in default_errorhandler
+    done_format_msg=errorvalue.get(u'done_format_msg'))
+snowflake.connector.errors.ForbiddenError: HTTP 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 207, in open
+    **creds.auth_args()
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/__init__.py", line 53, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/connection.py", line 187, in __init__
+    self.connect(**kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/connection.py", line 484, in connect
+    self.__open_connection()
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/connection.py", line 699, in __open_connection
+    self.__authenticate(auth_instance)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/connection.py", line 940, in __authenticate
+    session_parameters=self._session_parameters,
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/snowflake/connector/auth.py", line 200, in authenticate
+    sqlstate=SQLSTATE_CONNECTION_WAS_NOT_ESTABLISHED)
+snowflake.connector.errors.ForbiddenError: 250001 (08001): Failed to connect to DB. Verify the account name is correct: pba81894.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/impl.py", line 90, in list_schemas
+    kwargs={'database': database}
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 952, in execute_macro
+    result = macro_function(**kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 231, in __call__
+    return self.call_macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 161, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 675, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 679, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 680, in macro
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 290, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 231, in __call__
+    return self.call_macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 161, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 675, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 679, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 98, in macro
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 290, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 231, in __call__
+    return self.call_macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 161, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 675, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 679, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 231, in macro
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 290, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 231, in __call__
+    return self.call_macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 161, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 675, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 679, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 33, in macro
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 290, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 231, in __call__
+    return self.call_macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/clients/jinja.py", line 161, in call_macro
+    return macro(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 675, in __call__
+    return self._invoke(arguments, autoescape)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 679, in _invoke
+    rv = self._func(*arguments)
+  File "<template>", line 41, in macro
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/jinja2/runtime.py", line 290, in call
+    return __obj(*args, **kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/base/impl.py", line 220, in execute
+    fetch=fetch
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 116, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 302, in add_query
+    abridge_sql_log=abridge_sql_log
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/sql/connections.py", line 73, in add_query
+    cursor = connection.handle.cursor()
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/contracts/connection.py", line 71, in handle
+    self._handle.resolve(self)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/contracts/connection.py", line 92, in resolve
+    return self.opener(connection)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/connections.py", line 220, in open
+    raise FailedToConnectException(str(e))
+dbt.exceptions.FailedToConnectException: Database Error
+  250001 (08001): Failed to connect to DB. Verify the account name is correct: pba81894.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 81, in main
+    results, succeeded = handle_and_check(args)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 159, in handle_and_check
+    task, res = run_from_args(parsed)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/main.py", line 212, in run_from_args
+    results = task.run()
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 371, in run
+    result = self.execute_with_hooks(selected_uids)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 331, in execute_with_hooks
+    self.before_run(adapter, selected_uids)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/task/run.py", line 199, in before_run
+    self.create_schemas(adapter, selected_uids)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 451, in create_schemas
+    existing_schemas_lowered.update(ls_future.result())
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/usr/local/opt/python/Frameworks/Python.framework/Versions/3.7/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/task/runnable.py", line 434, in list_schemas
+    for s in adapter.list_schemas(database_quoted)
+  File "/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/dbt/adapters/snowflake/impl.py", line 97, in list_schemas
+    raise RuntimeException(msg)
+dbt.exceptions.RuntimeException: Runtime Error
+  Database error while listing schemas in database "WAREHOUSE_LOCAL"
+  Database Error
+    250001 (08001): Failed to connect to DB. Verify the account name is correct: pba81894.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+2020-04-19 01:12:32.556180 (MainThread): Running with dbt=0.16.0
+2020-04-19 01:12:33.112094 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=['example'], partial_parse=None, profile=None, profiles_dir='/Users/jlong/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-04-19 01:12:33.114243 (MainThread): Tracking: do not track
+2020-04-19 01:12:33.140547 (MainThread): Partial parsing not enabled
+2020-04-19 01:12:33.144275 (MainThread): Parsing macros/core.sql
+2020-04-19 01:12:33.151460 (MainThread): Parsing macros/materializations/helpers.sql
+2020-04-19 01:12:33.162477 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-04-19 01:12:33.165668 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-04-19 01:12:33.192002 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-04-19 01:12:33.238182 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-04-19 01:12:33.267519 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-04-19 01:12:33.270244 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-04-19 01:12:33.278842 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-04-19 01:12:33.296165 (MainThread): Parsing macros/materializations/table/table.sql
+2020-04-19 01:12:33.306126 (MainThread): Parsing macros/materializations/view/view.sql
+2020-04-19 01:12:33.315688 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-04-19 01:12:33.322552 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-04-19 01:12:33.324115 (MainThread): Parsing macros/etc/query.sql
+2020-04-19 01:12:33.325817 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-04-19 01:12:33.328287 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-04-19 01:12:33.331803 (MainThread): Parsing macros/etc/datetime.sql
+2020-04-19 01:12:33.344151 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-04-19 01:12:33.347417 (MainThread): Parsing macros/etc/get_custom_database.sql
+2020-04-19 01:12:33.349671 (MainThread): Parsing macros/adapters/common.sql
+2020-04-19 01:12:33.408873 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-04-19 01:12:33.411155 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-04-19 01:12:33.412674 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-04-19 01:12:33.414948 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-04-19 01:12:33.418754 (MainThread): Parsing macros/catalog.sql
+2020-04-19 01:12:33.421801 (MainThread): Parsing macros/adapters.sql
+2020-04-19 01:12:33.446386 (MainThread): Parsing macros/materializations/merge.sql
+2020-04-19 01:12:33.449321 (MainThread): Parsing macros/materializations/view.sql
+2020-04-19 01:12:33.450708 (MainThread): Parsing macros/materializations/table.sql
+2020-04-19 01:12:33.456241 (MainThread): Parsing macros/materializations/incremental.sql
+2020-04-19 01:12:33.506883 (MainThread): Partial parsing not enabled
+2020-04-19 01:12:33.512853 (MainThread): Parsing macros/cross_db_utils/except.sql
+2020-04-19 01:12:33.515186 (MainThread): Parsing macros/cross_db_utils/replace.sql
+2020-04-19 01:12:33.517418 (MainThread): Parsing macros/cross_db_utils/concat.sql
+2020-04-19 01:12:33.520935 (MainThread): Parsing macros/cross_db_utils/identifer.sql
+2020-04-19 01:12:33.522999 (MainThread): Parsing macros/cross_db_utils/datatypes.sql
+2020-04-19 01:12:33.531960 (MainThread): Parsing macros/cross_db_utils/_is_relation.sql
+2020-04-19 01:12:33.534464 (MainThread): Parsing macros/cross_db_utils/length.sql
+2020-04-19 01:12:33.536535 (MainThread): Parsing macros/cross_db_utils/dateadd.sql
+2020-04-19 01:12:33.541093 (MainThread): Parsing macros/cross_db_utils/intersect.sql
+2020-04-19 01:12:33.542978 (MainThread): Parsing macros/cross_db_utils/right.sql
+2020-04-19 01:12:33.546851 (MainThread): Parsing macros/cross_db_utils/datediff.sql
+2020-04-19 01:12:33.550745 (MainThread): Parsing macros/cross_db_utils/safe_cast.sql
+2020-04-19 01:12:33.554141 (MainThread): Parsing macros/cross_db_utils/hash.sql
+2020-04-19 01:12:33.557416 (MainThread): Parsing macros/cross_db_utils/position.sql
+2020-04-19 01:12:33.560850 (MainThread): Parsing macros/cross_db_utils/literal.sql
+2020-04-19 01:12:33.562729 (MainThread): Parsing macros/cross_db_utils/current_timestamp.sql
+2020-04-19 01:12:33.567742 (MainThread): Parsing macros/cross_db_utils/width_bucket.sql
+2020-04-19 01:12:33.575845 (MainThread): Parsing macros/cross_db_utils/last_day.sql
+2020-04-19 01:12:33.581951 (MainThread): Parsing macros/cross_db_utils/split_part.sql
+2020-04-19 01:12:33.586003 (MainThread): Parsing macros/cross_db_utils/date_trunc.sql
+2020-04-19 01:12:33.588547 (MainThread): Parsing macros/materializations/insert_by_period_materialization.sql
+2020-04-19 01:12:33.621211 (MainThread): Parsing macros/logger/pretty_log_format.sql
+2020-04-19 01:12:33.623003 (MainThread): Parsing macros/logger/pretty_time.sql
+2020-04-19 01:12:33.624839 (MainThread): Parsing macros/logger/log_info.sql
+2020-04-19 01:12:33.626157 (MainThread): Parsing macros/datetime/date_spine.sql
+2020-04-19 01:12:33.631477 (MainThread): Parsing macros/web/get_url_host.sql
+2020-04-19 01:12:33.634117 (MainThread): Parsing macros/web/get_url_path.sql
+2020-04-19 01:12:33.637517 (MainThread): Parsing macros/web/get_url_parameter.sql
+2020-04-19 01:12:33.639620 (MainThread): Parsing macros/geo/haversine_distance.sql
+2020-04-19 01:12:33.641480 (MainThread): Parsing macros/schema_tests/equal_rowcount.sql
+2020-04-19 01:12:33.643773 (MainThread): Parsing macros/schema_tests/relationships_where.sql
+2020-04-19 01:12:33.646706 (MainThread): Parsing macros/schema_tests/recency.sql
+2020-04-19 01:12:33.649901 (MainThread): Parsing macros/schema_tests/not_constant.sql
+2020-04-19 01:12:33.651810 (MainThread): Parsing macros/schema_tests/at_least_one.sql
+2020-04-19 01:12:33.653372 (MainThread): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2020-04-19 01:12:33.655200 (MainThread): Parsing macros/schema_tests/cardinality_equality.sql
+2020-04-19 01:12:33.657565 (MainThread): Parsing macros/schema_tests/expression_is_true.sql
+2020-04-19 01:12:33.659348 (MainThread): Parsing macros/schema_tests/equality.sql
+2020-04-19 01:12:33.664541 (MainThread): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2020-04-19 01:12:33.672668 (MainThread): Parsing macros/sql/nullcheck_table.sql
+2020-04-19 01:12:33.674669 (MainThread): Parsing macros/sql/generate_series.sql
+2020-04-19 01:12:33.679779 (MainThread): Parsing macros/sql/get_relations_by_prefix.sql
+2020-04-19 01:12:33.685746 (MainThread): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2020-04-19 01:12:33.691803 (MainThread): Parsing macros/sql/star.sql
+2020-04-19 01:12:33.697058 (MainThread): Parsing macros/sql/unpivot.sql
+2020-04-19 01:12:33.706174 (MainThread): Parsing macros/sql/union.sql
+2020-04-19 01:12:33.720311 (MainThread): Parsing macros/sql/groupby.sql
+2020-04-19 01:12:33.722065 (MainThread): Parsing macros/sql/surrogate_key.sql
+2020-04-19 01:12:33.724744 (MainThread): Parsing macros/sql/nullcheck.sql
+2020-04-19 01:12:33.726823 (MainThread): Parsing macros/sql/get_column_values.sql
+2020-04-19 01:12:33.733330 (MainThread): Parsing macros/sql/pivot.sql
+2020-04-19 01:12:33.737252 (MainThread): Parsing macros/sql/get_query_results_as_dict.sql
+2020-04-19 01:12:33.790772 (MainThread): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:12:33.790956 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:33.849861 (MainThread): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:12:33.850037 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:33.891154 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_first_dbt_model_id".
+2020-04-19 01:12:33.891341 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:33.903915 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_first_dbt_model_id".
+2020-04-19 01:12:33.904084 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:33.915952 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_second_dbt_model_id".
+2020-04-19 01:12:33.916141 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:33.927131 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_second_dbt_model_id".
+2020-04-19 01:12:33.927320 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:34.222019 (MainThread): WARNING: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_new_project.example
+- snapshots
+
+2020-04-19 01:12:34.324411 (MainThread): Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources
+2020-04-19 01:12:34.328731 (MainThread): 
+2020-04-19 01:12:34.329164 (MainThread): Acquiring new snowflake connection "master".
+2020-04-19 01:12:34.329380 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:12:34.340239 (ThreadPoolExecutor-0_0): Acquiring new snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 01:12:34.340535 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2020-04-19 01:12:34.474043 (ThreadPoolExecutor-0_0): Using snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 01:12:34.474241 (ThreadPoolExecutor-0_0): On list_WAREHOUSE_LOCAL: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL"} */
+
+    show terse schemas in database WAREHOUSE_LOCAL
+    limit 10000
+2020-04-19 01:12:34.799409 (ThreadPoolExecutor-0_0): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-04-19 01:12:35.207404 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 2 in 0.73 seconds
+2020-04-19 01:12:35.213099 (ThreadPoolExecutor-0_0): Acquiring new snowflake connection "create_WAREHOUSE_LOCAL_JLONG".
+2020-04-19 01:12:35.213353 (ThreadPoolExecutor-0_0): Re-using an available connection from the pool (formerly list_WAREHOUSE_LOCAL).
+2020-04-19 01:12:35.213497 (ThreadPoolExecutor-0_0): Creating schema "WAREHOUSE_LOCAL"."JLONG".
+2020-04-19 01:12:35.216427 (ThreadPoolExecutor-0_0): Using snowflake connection "create_WAREHOUSE_LOCAL_JLONG".
+2020-04-19 01:12:35.216576 (ThreadPoolExecutor-0_0): On create_WAREHOUSE_LOCAL_JLONG: BEGIN
+2020-04-19 01:12:35.328880 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 1 in 0.11 seconds
+2020-04-19 01:12:35.329142 (ThreadPoolExecutor-0_0): Using snowflake connection "create_WAREHOUSE_LOCAL_JLONG".
+2020-04-19 01:12:35.329277 (ThreadPoolExecutor-0_0): On create_WAREHOUSE_LOCAL_JLONG: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "create_WAREHOUSE_LOCAL_JLONG"} */
+create schema if not exists WAREHOUSE_LOCAL.JLONG
+2020-04-19 01:12:35.535528 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 1 in 0.21 seconds
+2020-04-19 01:12:35.537292 (ThreadPoolExecutor-0_0): On create_WAREHOUSE_LOCAL_JLONG: COMMIT
+2020-04-19 01:12:35.537581 (ThreadPoolExecutor-0_0): Using snowflake connection "create_WAREHOUSE_LOCAL_JLONG".
+2020-04-19 01:12:35.537872 (ThreadPoolExecutor-0_0): On create_WAREHOUSE_LOCAL_JLONG: COMMIT
+2020-04-19 01:12:35.608273 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 1 in 0.07 seconds
+2020-04-19 01:12:35.631236 (ThreadPoolExecutor-1_0): Acquiring new snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:12:35.631512 (ThreadPoolExecutor-1_0): Re-using an available connection from the pool (formerly create_WAREHOUSE_LOCAL_JLONG).
+2020-04-19 01:12:35.634987 (ThreadPoolExecutor-1_0): Using snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:12:35.635234 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: BEGIN
+2020-04-19 01:12:35.743241 (ThreadPoolExecutor-1_0): SQL status: SUCCESS 1 in 0.11 seconds
+2020-04-19 01:12:35.743542 (ThreadPoolExecutor-1_0): Using snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:12:35.743731 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL_jlong"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from WAREHOUSE_LOCAL.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'jlong'
+      and table_catalog ilike 'warehouse_local'
+2020-04-19 01:12:36.860265 (ThreadPoolExecutor-1_0): SQL status: SUCCESS 0 in 1.12 seconds
+2020-04-19 01:12:36.862052 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: ROLLBACK
+2020-04-19 01:12:36.862281 (ThreadPoolExecutor-1_0): initiating rollback
+2020-04-19 01:12:37.056525 (MainThread): Using snowflake connection "master".
+2020-04-19 01:12:37.056815 (MainThread): On master: BEGIN
+2020-04-19 01:12:37.613414 (MainThread): SQL status: SUCCESS 1 in 0.56 seconds
+2020-04-19 01:12:37.613746 (MainThread): On master: COMMIT
+2020-04-19 01:12:37.614038 (MainThread): Using snowflake connection "master".
+2020-04-19 01:12:37.614274 (MainThread): On master: COMMIT
+2020-04-19 01:12:37.744248 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-04-19 01:12:37.744954 (MainThread): 21:12:37 | Concurrency: 4 threads (target='local')
+2020-04-19 01:12:37.745249 (MainThread): 21:12:37 | 
+2020-04-19 01:12:37.746906 (Thread-1): Began running node model.transformations.my_first_dbt_model
+2020-04-19 01:12:37.747195 (Thread-1): 21:12:37 | 1 of 2 START view model JLONG.my_first_dbt_model..................... [RUN]
+2020-04-19 01:12:37.747805 (Thread-1): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:12:37.747986 (Thread-1): Re-using an available connection from the pool (formerly list_WAREHOUSE_LOCAL_jlong).
+2020-04-19 01:12:37.748185 (Thread-1): Compiling model.transformations.my_first_dbt_model
+2020-04-19 01:12:37.769605 (Thread-1): Writing injected SQL for node "model.transformations.my_first_dbt_model"
+2020-04-19 01:12:37.772364 (Thread-1): finished collecting timing info
+2020-04-19 01:12:37.854199 (Thread-1): Writing runtime SQL for node "model.transformations.my_first_dbt_model"
+2020-04-19 01:12:37.855600 (Thread-1): Using snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:12:37.855739 (Thread-1): On model.transformations.my_first_dbt_model: BEGIN
+2020-04-19 01:12:37.988050 (Thread-1): SQL status: SUCCESS 1 in 0.13 seconds
+2020-04-19 01:12:37.988285 (Thread-1): Using snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:12:37.988416 (Thread-1): On model.transformations.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "node_id": "model.transformations.my_first_dbt_model"} */
+
+  create or replace  view WAREHOUSE_LOCAL.JLONG.my_first_dbt_model  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+2020-04-19 01:12:38.245897 (Thread-1): SQL status: SUCCESS 1 in 0.26 seconds
+2020-04-19 01:12:38.248135 (Thread-1): On model.transformations.my_first_dbt_model: COMMIT
+2020-04-19 01:12:38.248427 (Thread-1): Using snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:12:38.248610 (Thread-1): On model.transformations.my_first_dbt_model: COMMIT
+2020-04-19 01:12:38.323600 (Thread-1): SQL status: SUCCESS 1 in 0.07 seconds
+2020-04-19 01:12:38.327074 (Thread-1): finished collecting timing info
+2020-04-19 01:12:38.328136 (Thread-1): 21:12:38 | 1 of 2 OK created view model JLONG.my_first_dbt_model................ [SUCCESS 1 in 0.58s]
+2020-04-19 01:12:38.328362 (Thread-1): Finished running node model.transformations.my_first_dbt_model
+2020-04-19 01:12:38.328876 (Thread-3): Began running node model.transformations.my_second_dbt_model
+2020-04-19 01:12:38.329118 (Thread-3): 21:12:38 | 2 of 2 START view model JLONG.my_second_dbt_model.................... [RUN]
+2020-04-19 01:12:38.329512 (Thread-3): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:12:38.329654 (Thread-3): Opening a new connection, currently in state init
+2020-04-19 01:12:38.329793 (Thread-3): Compiling model.transformations.my_second_dbt_model
+2020-04-19 01:12:38.339615 (Thread-3): Writing injected SQL for node "model.transformations.my_second_dbt_model"
+2020-04-19 01:12:38.340216 (Thread-3): finished collecting timing info
+2020-04-19 01:12:38.345532 (Thread-3): Writing runtime SQL for node "model.transformations.my_second_dbt_model"
+2020-04-19 01:12:38.346342 (Thread-3): Using snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:12:38.346475 (Thread-3): On model.transformations.my_second_dbt_model: BEGIN
+2020-04-19 01:12:38.725949 (Thread-3): SQL status: SUCCESS 1 in 0.38 seconds
+2020-04-19 01:12:38.726407 (Thread-3): Using snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:12:38.726546 (Thread-3): On model.transformations.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "node_id": "model.transformations.my_second_dbt_model"} */
+
+  create or replace  view WAREHOUSE_LOCAL.JLONG.my_second_dbt_model  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from WAREHOUSE_LOCAL.JLONG.my_first_dbt_model
+where id = 1
+  );
+2020-04-19 01:12:39.114667 (Thread-3): SQL status: SUCCESS 1 in 0.39 seconds
+2020-04-19 01:12:39.116742 (Thread-3): On model.transformations.my_second_dbt_model: COMMIT
+2020-04-19 01:12:39.117052 (Thread-3): Using snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:12:39.117208 (Thread-3): On model.transformations.my_second_dbt_model: COMMIT
+2020-04-19 01:12:39.182381 (Thread-3): SQL status: SUCCESS 1 in 0.07 seconds
+2020-04-19 01:12:39.184963 (Thread-3): finished collecting timing info
+2020-04-19 01:12:39.185882 (Thread-3): 21:12:39 | 2 of 2 OK created view model JLONG.my_second_dbt_model............... [SUCCESS 1 in 0.86s]
+2020-04-19 01:12:39.186061 (Thread-3): Finished running node model.transformations.my_second_dbt_model
+2020-04-19 01:12:39.208281 (MainThread): Using snowflake connection "master".
+2020-04-19 01:12:39.208508 (MainThread): On master: BEGIN
+2020-04-19 01:12:39.300734 (MainThread): SQL status: SUCCESS 1 in 0.09 seconds
+2020-04-19 01:12:39.301062 (MainThread): On master: COMMIT
+2020-04-19 01:12:39.301314 (MainThread): Using snowflake connection "master".
+2020-04-19 01:12:39.301458 (MainThread): On master: COMMIT
+2020-04-19 01:12:39.432988 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-04-19 01:12:39.433727 (MainThread): 21:12:39 | 
+2020-04-19 01:12:39.434006 (MainThread): 21:12:39 | Finished running 2 view models in 5.10s.
+2020-04-19 01:12:39.434232 (MainThread): Connection 'master' was left open.
+2020-04-19 01:12:39.434375 (MainThread): On master: Close
+2020-04-19 01:12:39.535827 (MainThread): Connection 'model.transformations.my_first_dbt_model' was left open.
+2020-04-19 01:12:39.536083 (MainThread): On model.transformations.my_first_dbt_model: Close
+2020-04-19 01:12:39.640040 (MainThread): Connection 'model.transformations.my_second_dbt_model' was left open.
+2020-04-19 01:12:39.640278 (MainThread): On model.transformations.my_second_dbt_model: Close
+2020-04-19 01:12:39.740687 (MainThread): 
+2020-04-19 01:12:39.740891 (MainThread): Completed successfully
+2020-04-19 01:12:39.741055 (MainThread): 
+Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+2020-04-19 01:12:39.741341 (MainThread): Flushing usage events
+2020-04-19 01:44:33.013491 (MainThread): Running with dbt=0.16.0
+2020-04-19 01:44:33.537776 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.run.RunTask'>, debug=False, exclude=None, full_refresh=False, log_cache_events=False, log_format='default', models=['example.snowflake_ref'], partial_parse=None, profile=None, profiles_dir='/Users/jlong/.dbt', project_dir=None, record_timing_info=None, rpc_method='run', single_threaded=False, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, vars='{}', version_check=True, warn_error=False, which='run', write_json=True)
+2020-04-19 01:44:33.539265 (MainThread): Tracking: do not track
+2020-04-19 01:44:33.565953 (MainThread): Partial parsing not enabled
+2020-04-19 01:44:33.569817 (MainThread): Parsing macros/core.sql
+2020-04-19 01:44:33.575705 (MainThread): Parsing macros/materializations/helpers.sql
+2020-04-19 01:44:33.586980 (MainThread): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2020-04-19 01:44:33.589760 (MainThread): Parsing macros/materializations/snapshot/strategies.sql
+2020-04-19 01:44:33.613680 (MainThread): Parsing macros/materializations/snapshot/snapshot.sql
+2020-04-19 01:44:33.661018 (MainThread): Parsing macros/materializations/seed/seed.sql
+2020-04-19 01:44:33.690105 (MainThread): Parsing macros/materializations/incremental/helpers.sql
+2020-04-19 01:44:33.693071 (MainThread): Parsing macros/materializations/incremental/incremental.sql
+2020-04-19 01:44:33.704943 (MainThread): Parsing macros/materializations/common/merge.sql
+2020-04-19 01:44:33.723049 (MainThread): Parsing macros/materializations/table/table.sql
+2020-04-19 01:44:33.732284 (MainThread): Parsing macros/materializations/view/view.sql
+2020-04-19 01:44:33.741710 (MainThread): Parsing macros/materializations/view/create_or_replace_view.sql
+2020-04-19 01:44:33.748992 (MainThread): Parsing macros/etc/get_custom_alias.sql
+2020-04-19 01:44:33.750809 (MainThread): Parsing macros/etc/query.sql
+2020-04-19 01:44:33.752486 (MainThread): Parsing macros/etc/is_incremental.sql
+2020-04-19 01:44:33.755483 (MainThread): Parsing macros/etc/get_relation_comment.sql
+2020-04-19 01:44:33.758715 (MainThread): Parsing macros/etc/datetime.sql
+2020-04-19 01:44:33.771923 (MainThread): Parsing macros/etc/get_custom_schema.sql
+2020-04-19 01:44:33.775873 (MainThread): Parsing macros/etc/get_custom_database.sql
+2020-04-19 01:44:33.777947 (MainThread): Parsing macros/adapters/common.sql
+2020-04-19 01:44:33.837974 (MainThread): Parsing macros/schema_tests/relationships.sql
+2020-04-19 01:44:33.840090 (MainThread): Parsing macros/schema_tests/not_null.sql
+2020-04-19 01:44:33.841848 (MainThread): Parsing macros/schema_tests/unique.sql
+2020-04-19 01:44:33.843757 (MainThread): Parsing macros/schema_tests/accepted_values.sql
+2020-04-19 01:44:33.847428 (MainThread): Parsing macros/catalog.sql
+2020-04-19 01:44:33.850642 (MainThread): Parsing macros/adapters.sql
+2020-04-19 01:44:33.877326 (MainThread): Parsing macros/materializations/merge.sql
+2020-04-19 01:44:33.880018 (MainThread): Parsing macros/materializations/view.sql
+2020-04-19 01:44:33.881225 (MainThread): Parsing macros/materializations/table.sql
+2020-04-19 01:44:33.886604 (MainThread): Parsing macros/materializations/incremental.sql
+2020-04-19 01:44:33.938574 (MainThread): Partial parsing not enabled
+2020-04-19 01:44:33.944914 (MainThread): Parsing macros/cross_db_utils/except.sql
+2020-04-19 01:44:33.947325 (MainThread): Parsing macros/cross_db_utils/replace.sql
+2020-04-19 01:44:33.949641 (MainThread): Parsing macros/cross_db_utils/concat.sql
+2020-04-19 01:44:33.954254 (MainThread): Parsing macros/cross_db_utils/identifer.sql
+2020-04-19 01:44:33.956611 (MainThread): Parsing macros/cross_db_utils/datatypes.sql
+2020-04-19 01:44:33.965167 (MainThread): Parsing macros/cross_db_utils/_is_relation.sql
+2020-04-19 01:44:33.967755 (MainThread): Parsing macros/cross_db_utils/length.sql
+2020-04-19 01:44:33.970026 (MainThread): Parsing macros/cross_db_utils/dateadd.sql
+2020-04-19 01:44:33.973571 (MainThread): Parsing macros/cross_db_utils/intersect.sql
+2020-04-19 01:44:33.975302 (MainThread): Parsing macros/cross_db_utils/right.sql
+2020-04-19 01:44:33.978552 (MainThread): Parsing macros/cross_db_utils/datediff.sql
+2020-04-19 01:44:33.982127 (MainThread): Parsing macros/cross_db_utils/safe_cast.sql
+2020-04-19 01:44:33.985289 (MainThread): Parsing macros/cross_db_utils/hash.sql
+2020-04-19 01:44:33.988073 (MainThread): Parsing macros/cross_db_utils/position.sql
+2020-04-19 01:44:33.990561 (MainThread): Parsing macros/cross_db_utils/literal.sql
+2020-04-19 01:44:33.992288 (MainThread): Parsing macros/cross_db_utils/current_timestamp.sql
+2020-04-19 01:44:33.997325 (MainThread): Parsing macros/cross_db_utils/width_bucket.sql
+2020-04-19 01:44:34.005612 (MainThread): Parsing macros/cross_db_utils/last_day.sql
+2020-04-19 01:44:34.010209 (MainThread): Parsing macros/cross_db_utils/split_part.sql
+2020-04-19 01:44:34.013746 (MainThread): Parsing macros/cross_db_utils/date_trunc.sql
+2020-04-19 01:44:34.016439 (MainThread): Parsing macros/materializations/insert_by_period_materialization.sql
+2020-04-19 01:44:34.048911 (MainThread): Parsing macros/logger/pretty_log_format.sql
+2020-04-19 01:44:34.050486 (MainThread): Parsing macros/logger/pretty_time.sql
+2020-04-19 01:44:34.052272 (MainThread): Parsing macros/logger/log_info.sql
+2020-04-19 01:44:34.053700 (MainThread): Parsing macros/datetime/date_spine.sql
+2020-04-19 01:44:34.059916 (MainThread): Parsing macros/web/get_url_host.sql
+2020-04-19 01:44:34.062457 (MainThread): Parsing macros/web/get_url_path.sql
+2020-04-19 01:44:34.066043 (MainThread): Parsing macros/web/get_url_parameter.sql
+2020-04-19 01:44:34.068295 (MainThread): Parsing macros/geo/haversine_distance.sql
+2020-04-19 01:44:34.070240 (MainThread): Parsing macros/schema_tests/equal_rowcount.sql
+2020-04-19 01:44:34.072661 (MainThread): Parsing macros/schema_tests/relationships_where.sql
+2020-04-19 01:44:34.075827 (MainThread): Parsing macros/schema_tests/recency.sql
+2020-04-19 01:44:34.077964 (MainThread): Parsing macros/schema_tests/not_constant.sql
+2020-04-19 01:44:34.079873 (MainThread): Parsing macros/schema_tests/at_least_one.sql
+2020-04-19 01:44:34.081853 (MainThread): Parsing macros/schema_tests/unique_combination_of_columns.sql
+2020-04-19 01:44:34.084219 (MainThread): Parsing macros/schema_tests/cardinality_equality.sql
+2020-04-19 01:44:34.086924 (MainThread): Parsing macros/schema_tests/expression_is_true.sql
+2020-04-19 01:44:34.089011 (MainThread): Parsing macros/schema_tests/equality.sql
+2020-04-19 01:44:34.093518 (MainThread): Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2020-04-19 01:44:34.101687 (MainThread): Parsing macros/sql/nullcheck_table.sql
+2020-04-19 01:44:34.103679 (MainThread): Parsing macros/sql/generate_series.sql
+2020-04-19 01:44:34.108759 (MainThread): Parsing macros/sql/get_relations_by_prefix.sql
+2020-04-19 01:44:34.114383 (MainThread): Parsing macros/sql/get_tables_by_prefix_sql.sql
+2020-04-19 01:44:34.118588 (MainThread): Parsing macros/sql/star.sql
+2020-04-19 01:44:34.123053 (MainThread): Parsing macros/sql/unpivot.sql
+2020-04-19 01:44:34.131643 (MainThread): Parsing macros/sql/union.sql
+2020-04-19 01:44:34.145695 (MainThread): Parsing macros/sql/groupby.sql
+2020-04-19 01:44:34.147565 (MainThread): Parsing macros/sql/surrogate_key.sql
+2020-04-19 01:44:34.150477 (MainThread): Parsing macros/sql/nullcheck.sql
+2020-04-19 01:44:34.152700 (MainThread): Parsing macros/sql/get_column_values.sql
+2020-04-19 01:44:34.158803 (MainThread): Parsing macros/sql/pivot.sql
+2020-04-19 01:44:34.162954 (MainThread): Parsing macros/sql/get_query_results_as_dict.sql
+2020-04-19 01:44:34.216595 (MainThread): Acquiring new snowflake connection "model.transformations.snowflake_ref".
+2020-04-19 01:44:34.216790 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.278098 (MainThread): Acquiring new snowflake connection "model.transformations.my_first_dbt_model".
+2020-04-19 01:44:34.278310 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.285999 (MainThread): Acquiring new snowflake connection "model.transformations.my_second_dbt_model".
+2020-04-19 01:44:34.286184 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.378056 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_first_dbt_model_id".
+2020-04-19 01:44:34.378243 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.392071 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_first_dbt_model_id".
+2020-04-19 01:44:34.392263 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.404514 (MainThread): Acquiring new snowflake connection "test.transformations.unique_my_second_dbt_model_id".
+2020-04-19 01:44:34.404710 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.414019 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_my_second_dbt_model_id".
+2020-04-19 01:44:34.414148 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.423750 (MainThread): Acquiring new snowflake connection "test.transformations.unique_snowflake_ref_c_custkey".
+2020-04-19 01:44:34.423918 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.433632 (MainThread): Acquiring new snowflake connection "test.transformations.not_null_snowflake_ref_c_custkey".
+2020-04-19 01:44:34.433809 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.728717 (MainThread): WARNING: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.my_new_project.example
+- snapshots
+
+2020-04-19 01:44:34.836623 (MainThread): Found 3 models, 6 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 1 source
+2020-04-19 01:44:34.842934 (MainThread): 
+2020-04-19 01:44:34.843361 (MainThread): Acquiring new snowflake connection "master".
+2020-04-19 01:44:34.843473 (MainThread): Opening a new connection, currently in state init
+2020-04-19 01:44:34.851046 (ThreadPoolExecutor-0_0): Acquiring new snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 01:44:34.851369 (ThreadPoolExecutor-0_0): Opening a new connection, currently in state init
+2020-04-19 01:44:34.981709 (ThreadPoolExecutor-0_0): Using snowflake connection "list_WAREHOUSE_LOCAL".
+2020-04-19 01:44:34.981892 (ThreadPoolExecutor-0_0): On list_WAREHOUSE_LOCAL: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL"} */
+
+    show terse schemas in database WAREHOUSE_LOCAL
+    limit 10000
+2020-04-19 01:44:35.332886 (ThreadPoolExecutor-0_0): unclosed file <_io.BufferedReader name='/usr/local/Cellar/dbt/0.16.0_1/libexec/lib/python3.7/site-packages/certifi/cacert.pem'>
+2020-04-19 01:44:35.720039 (ThreadPoolExecutor-0_0): SQL status: SUCCESS 3 in 0.74 seconds
+2020-04-19 01:44:35.765302 (ThreadPoolExecutor-1_0): Acquiring new snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:44:35.765617 (ThreadPoolExecutor-1_0): Re-using an available connection from the pool (formerly list_WAREHOUSE_LOCAL).
+2020-04-19 01:44:35.770216 (ThreadPoolExecutor-1_0): Using snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:44:35.770500 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: BEGIN
+2020-04-19 01:44:35.907649 (ThreadPoolExecutor-1_0): SQL status: SUCCESS 1 in 0.14 seconds
+2020-04-19 01:44:35.907924 (ThreadPoolExecutor-1_0): Using snowflake connection "list_WAREHOUSE_LOCAL_jlong".
+2020-04-19 01:44:35.908072 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "connection_name": "list_WAREHOUSE_LOCAL_jlong"} */
+select
+      table_catalog as database,
+      table_name as name,
+      table_schema as schema,
+      case when table_type = 'BASE TABLE' then 'table'
+           when table_type = 'VIEW' then 'view'
+           when table_type = 'MATERIALIZED VIEW' then 'materializedview'
+           when table_type = 'EXTERNAL TABLE' then 'external'
+           else table_type
+      end as table_type
+    from WAREHOUSE_LOCAL.INFORMATION_SCHEMA.tables
+    where table_schema ilike 'jlong'
+      and table_catalog ilike 'warehouse_local'
+2020-04-19 01:44:36.701872 (ThreadPoolExecutor-1_0): SQL status: SUCCESS 2 in 0.79 seconds
+2020-04-19 01:44:36.706123 (ThreadPoolExecutor-1_0): On list_WAREHOUSE_LOCAL_jlong: ROLLBACK
+2020-04-19 01:44:36.706311 (ThreadPoolExecutor-1_0): initiating rollback
+2020-04-19 01:44:36.829328 (MainThread): Using snowflake connection "master".
+2020-04-19 01:44:36.829624 (MainThread): On master: BEGIN
+2020-04-19 01:44:37.354192 (MainThread): SQL status: SUCCESS 1 in 0.52 seconds
+2020-04-19 01:44:37.354477 (MainThread): On master: COMMIT
+2020-04-19 01:44:37.354675 (MainThread): Using snowflake connection "master".
+2020-04-19 01:44:37.354804 (MainThread): On master: COMMIT
+2020-04-19 01:44:37.491743 (MainThread): SQL status: SUCCESS 1 in 0.14 seconds
+2020-04-19 01:44:37.492454 (MainThread): 21:44:37 | Concurrency: 4 threads (target='local')
+2020-04-19 01:44:37.492745 (MainThread): 21:44:37 | 
+2020-04-19 01:44:37.494482 (Thread-1): Began running node model.transformations.snowflake_ref
+2020-04-19 01:44:37.494838 (Thread-1): 21:44:37 | 1 of 1 START view model JLONG.snowflake_ref.......................... [RUN]
+2020-04-19 01:44:37.495352 (Thread-1): Acquiring new snowflake connection "model.transformations.snowflake_ref".
+2020-04-19 01:44:37.495518 (Thread-1): Re-using an available connection from the pool (formerly list_WAREHOUSE_LOCAL_jlong).
+2020-04-19 01:44:37.495684 (Thread-1): Compiling model.transformations.snowflake_ref
+2020-04-19 01:44:37.518547 (Thread-1): Writing injected SQL for node "model.transformations.snowflake_ref"
+2020-04-19 01:44:37.519137 (Thread-1): finished collecting timing info
+2020-04-19 01:44:37.556661 (Thread-1): Writing runtime SQL for node "model.transformations.snowflake_ref"
+2020-04-19 01:44:37.558126 (Thread-1): Using snowflake connection "model.transformations.snowflake_ref".
+2020-04-19 01:44:37.558282 (Thread-1): On model.transformations.snowflake_ref: BEGIN
+2020-04-19 01:44:37.642442 (Thread-1): SQL status: SUCCESS 1 in 0.08 seconds
+2020-04-19 01:44:37.642684 (Thread-1): Using snowflake connection "model.transformations.snowflake_ref".
+2020-04-19 01:44:37.642887 (Thread-1): On model.transformations.snowflake_ref: /* {"app": "dbt", "dbt_version": "0.16.0", "profile_name": "snowflake", "target_name": "local", "node_id": "model.transformations.snowflake_ref"} */
+
+  create or replace  view WAREHOUSE_LOCAL.JLONG.snowflake_ref  as (
+    
+
+
+
+select *
+from SNOWFLAKE_SAMPLE_DATA.tpch_sf1.customer
+  );
+2020-04-19 01:44:37.908275 (Thread-1): SQL status: SUCCESS 1 in 0.27 seconds
+2020-04-19 01:44:37.909542 (Thread-1): On model.transformations.snowflake_ref: COMMIT
+2020-04-19 01:44:37.909710 (Thread-1): Using snowflake connection "model.transformations.snowflake_ref".
+2020-04-19 01:44:37.909812 (Thread-1): On model.transformations.snowflake_ref: COMMIT
+2020-04-19 01:44:37.976552 (Thread-1): SQL status: SUCCESS 1 in 0.07 seconds
+2020-04-19 01:44:37.978984 (Thread-1): finished collecting timing info
+2020-04-19 01:44:37.979795 (Thread-1): 21:44:37 | 1 of 1 OK created view model JLONG.snowflake_ref..................... [SUCCESS 1 in 0.48s]
+2020-04-19 01:44:37.979993 (Thread-1): Finished running node model.transformations.snowflake_ref
+2020-04-19 01:44:38.017412 (MainThread): Using snowflake connection "master".
+2020-04-19 01:44:38.017617 (MainThread): On master: BEGIN
+2020-04-19 01:44:38.100881 (MainThread): SQL status: SUCCESS 1 in 0.08 seconds
+2020-04-19 01:44:38.101096 (MainThread): On master: COMMIT
+2020-04-19 01:44:38.101246 (MainThread): Using snowflake connection "master".
+2020-04-19 01:44:38.101342 (MainThread): On master: COMMIT
+2020-04-19 01:44:38.231695 (MainThread): SQL status: SUCCESS 1 in 0.13 seconds
+2020-04-19 01:44:38.232414 (MainThread): 21:44:38 | 
+2020-04-19 01:44:38.232689 (MainThread): 21:44:38 | Finished running 1 view model in 3.39s.
+2020-04-19 01:44:38.232929 (MainThread): Connection 'master' was left open.
+2020-04-19 01:44:38.233073 (MainThread): On master: Close
+2020-04-19 01:44:38.323997 (MainThread): Connection 'model.transformations.snowflake_ref' was left open.
+2020-04-19 01:44:38.324247 (MainThread): On model.transformations.snowflake_ref: Close
+2020-04-19 01:44:38.436281 (MainThread): 
+2020-04-19 01:44:38.436541 (MainThread): Completed successfully
+2020-04-19 01:44:38.436812 (MainThread): 
+Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2020-04-19 01:44:38.437099 (MainThread): Flushing usage events
